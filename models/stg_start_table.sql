@@ -1,5 +1,4 @@
 select
     id,
     values_teste
-from start_table
-
+from {{ source('teste', 'start_table') }}

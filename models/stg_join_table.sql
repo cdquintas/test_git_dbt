@@ -1,5 +1,4 @@
 select
     id,
     descr
-from join_table
-
+from {{ source('teste', 'join_table') }}

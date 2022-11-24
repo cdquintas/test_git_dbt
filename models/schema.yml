@@ -8,3 +8,15 @@ models:
         description: "the id"
       - name: "values_teste"
       - name: "descr"
+  - name: "stg_start_table"
+    description: "A table stg_start"
+    columns:
+      - name: "id"
+        description: "the id"
+      - name: "values_teste"
+  - name: "stg_join_table"
+    description: "A table stg_join"
+    columns:
+      - name: "id"
+        description: "the id"
+      - name: "descr"
