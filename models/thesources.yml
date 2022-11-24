@@ -1,0 +1,9 @@
+version: 2
+
+sources:
+  - name: teste
+    database: teste
+    tables:
+      - name: join_table
+      - name: start_table
+
