@@ -1,0 +1,10 @@
+# schema.yml
+version: 2
+models:
+  - name: "end_table"
+    description: "A table end"
+    columns:
+      - name: "id"
+        description: "the id"
+      - name: "values_teste"
+      - name: "descr"
